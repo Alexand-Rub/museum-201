@@ -75,7 +75,7 @@
 	
 		<!-- *** add hotspt *** -->
 
-	<editor_hs pin="alexandrublev@icloud.com" />
+
 
 	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/youtube.xml"/>
 	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/photo.xml"/>

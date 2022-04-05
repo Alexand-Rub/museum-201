@@ -94,13 +94,13 @@
 
 	
 		<hotspot name="hsp_0_1" style="link_hs_sm" onclick="YoutubOpenSM(Tk-orf5m_og,80);" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" scale="0.410" ath="-135.1617" atv="-15.2033" distorted="true" rx="-18.00" ry="36.00" />
-		<hotspot name="hsp_0_2" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.595" ath="-11.5880" atv="-30.8100" distorted="true" rx="-15" ry="22.5" install_onclick="6" phot_h="80" info_ah="10_1.jpg" />
-		<hotspot name="hsp_0_3" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.57" ath="9.1910" atv="-31.1260" distorted="true" rx="-18" ry="-21" install_onclick="6" phot_h="80" info_ah="10_2.jpg" />
+		<hotspot name="hsp_0_2" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.595" ath="-11.5880" atv="-30.8100" distorted="true" rx="-15.00" ry="22.50" install_onclick="6" phot_h="80" info_ah="10_1.jpg" />
+		<hotspot name="hsp_0_3" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.570" ath="9.1910" atv="-31.1260" distorted="true" rx="-18.00" ry="-21.00" install_onclick="6" phot_h="80" info_ah="10_2.jpg" />
 		<hotspot name="hsp_0_5" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/10_6.jpeg" scale="2.640" ath="3.0487" atv="-7.7694" distorted="true" rx="-6.00" install_onclick="5" close_adhs="true" />
 		<hotspot name="hsp_0_6" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/10_5.jpg" scale="1.690" ath="-2.7310" atv="11.5940" distorted="true" rx="4.50" ry="9.00" install_onclick="5" close_adhs="true" />
 		<hotspot name="hsp_0_7" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_7.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.695" ath="-11.5650" atv="-15.4590" distorted="true" rx="-15.00" ry="10.50" install_onclick="6" phot_h="80" info_ah="10_7.jpg" />
 		<hotspot name="hsp_0_8" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/11_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.570" ath="34.7900" atv="-18.1860" distorted="true" rx="-21.00" ry="148.50" install_onclick="6" phot_h="80" info_ah="11_2.jpg" />
-		<hotspot name="hsp_0_9" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/11_6.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.3" ath="51.2160" atv="0.0090" distorted="true" rx="6" ry="-27" install_onclick="6" phot_h="80" info_ah="11_6.jpg" />
+		<hotspot name="hsp_0_9" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/11_6.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.300" ath="51.2160" atv="0.0090" distorted="true" rx="6.00" ry="-27.00" install_onclick="6" phot_h="80" info_ah="11_6.jpg" />
 	
 		<hotspot name="hsp_0_10" style="link_hs_sm" onhover="showtit();" onclick="openurl(https://gym201s.mskobr.ru/muzej_istorii_shkoly_i_sem_i_kosmodem_yanskih, _blank);" url="%FIRSTXML%/add_hotspot/picture/link_1.png" scale="0.865" ath="-17.6330" atv="21.6320" distorted="true" rx="19.5" ry="19.5" title="Сайт музея школы 201" install_onclick="1" info_ah="https://gym201s.mskobr.ru/muzej_istorii_shkoly_i_sem_i_kosmodem_yanskih" onhover_temp="showtit();" />
 		<hotspot name="hsp_0_11" style="link_hs_sm" onhover="showtit();" onclick="openurl(https://gym201s.mskobr.ru/#/, _blank);" url="%FIRSTXML%/add_hotspot/picture/link_1.png" scale="0.58" ath="50.5440" atv="14.4480" distorted="true" rx="13.5" ry="-34.5" rz="-3.5" title="Сайт школы 201" install_onclick="1" info_ah="https://gym201s.mskobr.ru/#/" onhover_temp="showtit();" />
@@ -111,11 +111,13 @@
 		<hotspot name="hsp_0_4" style="link_hs_sm" onhover="showtit();" onclick="openurl(../museum/, _parent);" url="%FIRSTXML%/add_hotspot/picture/door_in.png" scale="1.43" ath="-89.4321" atv="8.2306" distorted="true" title="Зайти в музей" install_onclick="2" info_ah="../museum/" onhover_temp="showtit();" />
 	
 		<hotspot name="hsp_0_14" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/14_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.39" ath="157.0430" atv="-13.7537" distorted="true" rx="-15" ry="19.5" install_onclick="3" info_ah="add_hotspot/doc/14_1.html" />
-		<hotspot name="hsp_0_15" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.525" ath="18.2456" atv="6.2723" distorted="true" rx="7.5" ry="-21" install_onclick="3" info_ah="null" />
-		<hotspot name="hsp_0_17" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.455" ath="-45.8943" atv="-21.2179" distorted="true" rx="-24" ry="40.5" install_onclick="3" info_ah="add_hotspot/doc/9_1.pdf" />
-		<hotspot name="hsp_0_16" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.46" ath="-111.9131" atv="-19.5560" distorted="true" rx="-13.5" ry="25.5" install_onclick="3" info_ah="add_hotspot/doc/8_2.html" />
+		<hotspot name="hsp_0_15" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.525" ath="18.2456" atv="6.2723" distorted="true" rx="7.50" ry="-21.00" install_onclick="3" info_ah="null" />
+		<hotspot name="hsp_0_17" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.455" ath="-45.8943" atv="-21.2179" distorted="true" rx="-24.00" ry="40.50" install_onclick="3" info_ah="add_hotspot/doc/9_1.pdf" />
+		
 		<hotspot name="hsp_0_18" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.4" ath="-134.9884" atv="-10.5420" distorted="true" rx="-16.5" ry="33" install_onclick="3" info_ah="add_hotspot/doc/8_3.pdf" />
 		<hotspot name="hsp_0_19" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.47" ath="-134.5870" atv="0.1468" distorted="true" rx="-1.5" ry="40.5" rz="-1.25" install_onclick="3" info_ah="add_hotspot/doc/8_4.html" />
+	
+		<hotspot name="hsp_0_20" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_2.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.440" ath="-112.0331" atv="-17.6779" distorted="true" rx="-19.50" ry="22.50" install_onclick="3" info_ah="add_hotspot/doc/8_2.html" />
 	</scene>
 
 	<scene name="scene_hallway_2" title="hallway_2" onstart="" thumburl="panos/hallway_2.tiles/thumb.jpg" lat="" lng="" heading="">

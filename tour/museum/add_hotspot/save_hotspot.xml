@@ -1,0 +1,83 @@
+
+<krpano>
+
+	<include url="plugins_l/plugin_a/photo.xml"/>
+
+	<addhs_settings  pin_cod="" 
+ 					 sound_close_click="false" 
+ 					 video_close_click="true" 
+ 					 youtube_close_click="true" 
+					 FIRSTXML="tour" 
+					 path="%SWFPATH%/" 
+					 action_list="'add_hotspot/plugins_l/actionSM.html'" 
+ 		   		/>
+	
+
+  <hotspot  name="hotspot_1" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_9.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-22.8706" atv="-2.852" width="100" height="prop" rx="-4.2" ry="16.5" scale="0.393" edge="center"
+			ondown="drag_LinkSM()drag_LinkSM();drag_LinkSM();drag_LinkSM();drag_LinkSM();"
+ 		/>
+	
+
+  <hotspot  name="hotspot_2" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_9.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-15.9419" atv="-9.1921" width="100" height="prop" rx="-9.9" ry="14.7" scale="0.52" edge="center"
+ 			install_onclick="6" scene_EL="scene_pano_m_2" info_Ah="1.png" fov_EL="138.93" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/1.png);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_3" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_9.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-21.2988" atv="-0.6403" width="100" height="prop" rx="-0.9" ry="30.3" scale="0.548" edge="center"
+ 			install_onclick="6" scene_EL="scene_pano_m_2" info_Ah="2.png" fov_EL="111.75" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/2.png);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_4" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/icon_L_9.png" distorted="true" enabled="false" visible="false" zorder="5"
+ 			ath="-88.1276" atv="-24.4149" width="100" height="prop" rx="-12.6" ry="-8.1" scale="0.544" edge="center"
+ 			install_onclick="6" scene_EL="scene_pano_m_5" info_Ah="3.jpg" fov_EL="97.92" enabled2="true" visible2="true" drag_hs="true" tit_phot="0" phot_h="80"
+ 			onclick=" open_photo_add_hs(%SWFPATH%/add_hotspot/photo/3.jpg);"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+  <hotspot  name="hotspot_5" style="link_hs_sm" type="image" keep="true" url="%SWFPATH%/add_hotspot/picture/link.png" distorted="true" zorder="5"
+ 			ath="-178.898" atv="2.8105" width="100" height="prop" scale="0.813" edge="center"
+ 			install_onclick="1" title="Коридор" scene_EL="scene_pano_m_1" info_Ah="http://museum201.ru/k.html" fov_EL="120" enabled2="true" visible2="true" drag_hs="true"
+ 			onclick="openurl(http://museum201.ru/k.html, _blank);"
+ 			onhover="showtit();"
+			ondown="drag_LinkSM()"
+ 		/>
+	
+ <style name="pl_hs_add_hs"
+ 		keep="true"
+		enabled2="true"
+ 		visible2="true"
+ 		visible="false"
+ 		alpha="1"
+ 		alpha2="1"
+ 		capture="false"
+ 		handcursor="true"
+ 		zorder="0"
+ 		install_onclick="14"
+ 		fov_EL="90"
+ 		fillcolor="0xFF0000"
+ 		fillcolor2="0x0087B8"
+ 		fillalpha="0.50"
+ 		fillalpha2="0.00"
+ 		borderwidth="2"
+ 		borderwidth2="2"
+ 		bordercolor="0x55FF00"
+ 		bordercolor2="0x55FF00"
+ 		borderalpha="1.00"
+ 		borderalpha2="1.00"
+ 		onover="set_pol_2(get(name));"
+ 		onout="set_pol_1();"
+ 		ondown="ondown_pl_hs();"
+ 		blendmode="normal"
+	 />
+
+	 <!-- polygonal hotspot -->
+
+
+ 
+</krpano>

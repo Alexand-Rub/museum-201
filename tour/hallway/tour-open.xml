@@ -1,0 +1,296 @@
+<krpano version="1.20.11" title="Virtual Tour">
+
+	<include url="skin/vtourskin.xml" />
+
+	<include url="%SWFPATH%/add_hotspot/plugins_l/add_hotspot.xml" />
+
+	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
+	<skin_settings maps="false"
+	               maps_type="google"
+	               maps_bing_api_key=""
+	               maps_google_api_key=""
+	               maps_zoombuttons="false"
+	               maps_loadonfirstuse="true"
+	               gyro="true"
+	               gyro_keeplookingdirection="false"
+	               webvr="true"
+	               webvr_keeplookingdirection="true"
+	               webvr_prev_next_hotspots="true"
+	               autotour="false"
+	               littleplanetintro="false"
+	               followmousecontrol="false"
+	               title="true"
+	               thumbs="true"
+	               thumbs_width="120" thumbs_height="80" thumbs_padding="10" thumbs_crop="0|40|240|160"
+	               thumbs_opened="false"
+	               thumbs_text="false"
+	               thumbs_dragging="true"
+	               thumbs_onhoverscrolling="false"
+	               thumbs_scrollbuttons="false"
+	               thumbs_scrollindicator="false"
+	               thumbs_loop="false"
+	               tooltips_buttons="false"
+	               tooltips_thumbs="false"
+	               tooltips_hotspots="false"
+	               tooltips_mapspots="false"
+	               deeplinking="false"
+	               loadscene_flags="MERGE"
+	               loadscene_blend="OPENBLEND(0.5, 0.0, 0.75, 0.05, linear)"
+	               loadscene_blend_prev="SLIDEBLEND(0.5, 180, 0.75, linear)"
+	               loadscene_blend_next="SLIDEBLEND(0.5,   0, 0.75, linear)"
+	               loadingtext=""
+	               layout_width="100%"
+	               layout_maxwidth="814"
+	               controlbar_width="-24"
+	               controlbar_height="40"
+	               controlbar_offset="20"
+	               controlbar_offset_closed="-40"
+	               controlbar_overlap.no-fractionalscaling="10"
+	               controlbar_overlap.fractionalscaling="0"
+	               design_skin_images="vtourskin.png"
+	               design_bgcolor="0x2D3E50"
+	               design_bgalpha="0.8"
+	               design_bgborder="0"
+	               design_bgroundedge="1"
+	               design_bgshadow="0 4 10 0x000000 0.3"
+	               design_thumbborder_bgborder="3 0xFFFFFF 1.0"
+	               design_thumbborder_padding="2"
+	               design_thumbborder_bgroundedge="0"
+	               design_text_css="color:#FFFFFF; font-family:Arial;"
+	               design_text_shadow="1"
+	               />
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+
+	
+		<!-- *** add hotspt *** -->
+
+	<editor_hs pin="alexandrublev@icloud.com" />
+
+	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/video.xml"/>
+	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/youtube.xml"/>
+	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/photo.xml"/>
+
+<scene name="scene_hallway_1" title="hallway_1" onstart="" thumburl="panos/hallway_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-89.050" vlookat="7.634" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-64.555" vlookatmax="71.809" />
+
+		<preview url="panos/hallway_1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/hallway_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5184,10368" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" width="128" height="112" ath="-179.2640" atv="20.2850" linkedscene="scene_hallway_2" drag_hs="false" />
+
+	
+		<hotspot name="hsp_0_1" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_2.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.48" ath="-112.0525" atv="-19.3598" distorted="true" rx="-13.5" ry="25.5" install_onclick="3" info_ah="add_hotspot/doc/8_2.html" />
+		<hotspot name="hsp_0_2" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.275" ath="-134.9550" atv="-10.7395" distorted="true" rx="-13.5" ry="40.5" install_onclick="3" info_ah="add_hotspot/doc/8_3.pdf" />
+	
+		<hotspot name="hsp_0_3" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_4.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.305" ath="-134.8508" atv="-0.1791" distorted="true" rx="-1.5" ry="37.5" install_onclick="3" info_ah="add_hotspot/doc/8_4.html" />
+	
+		<hotspot name="hsp_0_4" style="link_hs_sm" onclick="looktohotspot(get(name),90); videoplayer_open(8_5.mp4,get(poster_Ah));" url="%FIRSTXML%/add_hotspot/picture/media_playback_start.png" scale="0.355" ath="-127.4402" atv="-0.3512" distorted="true" ry="37.5" install_onclick="7" video_h="80" volume_adhs="0.5" info_ah="8_5.mp4" />
+	
+		<hotspot name="hsp_0_5" style="link_hs_sm" onclick="YoutubOpenSM(Tk-orf5m_og,80);" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" scale="0.405" ath="-134.9220" atv="-14.7227" distorted="true" rx="-22.5" ry="37.5" />
+	
+		<hotspot name="hsp_0_6" style="link_hs_sm" onhover="showtit();" onclick="openurl(../museum/, _parent);" url="%FIRSTXML%/add_hotspot/picture/door_in.png" scale="1.555" ath="-89.3650" atv="10.4227" distorted="true" title="Зайти в музей" install_onclick="2" info_ah="../museum/" onhover_temp="showtit();" />
+	
+		<hotspot name="hsp_0_7" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/wall.jpg" scale="8.780" ath="112.9919" atv="-1.7575" distorted="true" rx="-1.50" ry="-52.50" install_onclick="5" close_adhs="true" />
+	
+		<hotspot name="hsp_0_8" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/9_1.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.405" ath="-46.8255" atv="-20.9461" distorted="true" rx="-25.5" ry="42" install_onclick="3" info_ah="add_hotspot/doc/9_1.pdf" />
+	
+		<hotspot name="hsp_0_9" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/10_5_p.jpg" scale="2.610" ath="3.1266" atv="-6.5353" distorted="true" install_onclick="5" />
+	
+		<hotspot name="hsp_0_10" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/10_6_p.jpg" scale="1.590" ath="-2.5354" atv="11.4244" distorted="true" install_onclick="5" />
+	
+		<hotspot name="hsp_0_11" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.685" ath="-2.2617" atv="-31.9182" distorted="true" rx="-25.50" ry="4.50" install_onclick="6" phot_h="80" info_ah="10_1.jpg" />
+	
+		<hotspot name="hsp_0_12" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.685" ath="8.9571" atv="-31.8081" distorted="true" rx="-24.00" ry="-12.00" install_onclick="6" phot_h="80" info_ah="10_2.jpg" />
+	
+		<hotspot name="hsp_0_13" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/10_3.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.465" ath="3.4651" atv="-19.9509" distorted="true" rx="-9.00" ry="-6.00" install_onclick="3" info_ah="add_hotspot/doc/10_3.html" />
+	
+		<hotspot name="hsp_0_14" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/10_4.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.765" ath="-12.0118" atv="-15.5818" distorted="true" rx="-9" ry="15" rz="-1" install_onclick="6" phot_h="80" info_ah="10_4.jpg" />
+	
+		<hotspot name="hsp_0_15" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/10_5.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.465" ath="-11.5278" atv="4.0801" distorted="true" rx="-9.00" ry="-6.00" install_onclick="3" info_ah="add_hotspot/doc/10_5.html" />
+	
+		<hotspot name="hsp_0_17" style="link_hs_sm" onhover="showtit();" onclick="openurl(https://gym201s.mskobr.ru/muzej_istorii_shkoly_i_sem_i_kosmodem_yanskih, _blank);" url="%FIRSTXML%/add_hotspot/picture/website.png" scale="0.66" ath="-63.7236" atv="-16.7348" distorted="true" rx="-13.5" ry="-24" title="Сайт музея" install_onclick="1" info_ah="https://gym201s.mskobr.ru/muzej_istorii_shkoly_i_sem_i_kosmodem_yanskih" onhover_temp="showtit();" />
+		<hotspot name="hsp_0_18" style="link_hs_sm" onhover="showtit();" onclick="openurl(https://gym201s.mskobr.ru/#/, _blank);" url="%FIRSTXML%/add_hotspot/picture/website.png" scale="0.66" ath="-63.7546" atv="-7.8238" distorted="true" rx="-6" ry="-24" title="Сайт школы" install_onclick="1" info_ah="https://gym201s.mskobr.ru/#/" onhover_temp="showtit();" />
+	
+		<hotspot name="hsp_0_16" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/11_1.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.410" ath="50.4136" atv="-20.9755" distorted="true" rx="-27.00" ry="-43.50" install_onclick="3" info_ah="add_hotspot/doc/11_1.pdf" />
+	
+		<hotspot name="hsp_0_19" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/11_2.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.555" ath="21.6906" atv="-21.1663" distorted="true" rx="-18" ry="-31.5" install_onclick="3" info_ah="add_hotspot/doc/11_2.pdf" />
+	
+		<hotspot name="hsp_0_20" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/11_3.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.675" ath="35.1928" atv="-18.1854" distorted="true" rx="-24.00" ry="-30.00" install_onclick="6" phot_h="80" info_ah="11_3.jpg" />
+	
+		<hotspot name="hsp_0_21" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/11_4.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.45" ath="50.2497" atv="-13.0635" distorted="true" rx="-15" ry="-49.5" install_onclick="3" info_ah="add_hotspot/doc/11_4.pdf" />
+	
+		<hotspot name="hsp_0_22" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/11_5.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.630" ath="23.3674" atv="-2.5356" distorted="true" install_onclick="6" phot_h="80" info_ah="11_5.jpg" />
+	
+		<hotspot name="hsp_0_23" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/11_6.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" scale="0.64" ath="22.5756" atv="14.8136" distorted="true" rx="15" ry="-16.5" install_onclick="6" phot_h="80" info_ah="11_6.jpg" />
+	
+		<hotspot name="hsp_0_24" style="link_hs_sm" onclick="YoutubOpenSM(QZtKJlr9wII,80);" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" scale="0.305" ath="142.1527" atv="-11.0256" distorted="true" rx="-16.5" ry="27" />
+	
+		<hotspot name="hsp_0_25" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.355" ath="158.2789" atv="-13.0776" distorted="true" rx="-7.5" ry="22.5" install_onclick="3" info_ah="add_hotspot/doc/13_1.html" />
+	</scene>
+
+	<scene name="scene_hallway_2" title="hallway_2" onstart="" thumburl="panos/hallway_2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="1.450" vlookat="3.108" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-62.737" vlookatmax="73.635" />
+
+		<preview url="panos/hallway_2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/hallway_2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2560,5120,10240" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" width="128" height="112" ath="-88.7220" atv="18.3570" linkedscene="scene_hallway_3" drag_hs="false" />
+		<hotspot name="spot2" style="skin_hotspotstyle" width="128" height="112" ath="90.8010" atv="22.8520" linkedscene="scene_hallway_1" drag_hs="false" />
+
+	
+		<hotspot name="hsp_1_1" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/5_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.550" enabled="false" ath="-42.8299" atv="-19.9124" distorted="true" rx="-25.500" ry="37.500" install_onclick="6" phot_h="80" info_ah="5_1.jpg" />
+		<hotspot name="hsp_1_2" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/5_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.630" enabled="false" ath="-33.6477" atv="-22.5417" distorted="true" rx="-25.50" ry="31.50" install_onclick="6" phot_h="80" info_ah="5_2.jpg" />
+	
+		<hotspot name="hsp_1_3" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/5_4.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.515" enabled="false" ath="-42.2206" atv="4.0500" distorted="true" rx="7.50" ry="34.50" rz="-0.75" install_onclick="6" phot_h="80" info_ah="5_4.jpg" />
+	
+		<hotspot name="hsp_1_4" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/5_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.405" enabled="false" ath="-36.3971" atv="-5.3383" distorted="true" rx="-7.50" ry="33.00" install_onclick="3" info_ah="add_hotspot/doc/5_3.pdf" />
+		<hotspot name="hsp_1_5" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/5_5.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.34" enabled="false" ath="-42.7768" atv="9.9218" distorted="true" rx="7.5" ry="46.5" install_onclick="3" info_ah="add_hotspot/doc/5_5.html" />
+	
+		<hotspot name="hsp_1_6" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/wall.jpg" visible="false" scale="8.21" enabled="false" ath="161.0497" atv="-1.5776" distorted="true" rx="-1.5" ry="-13.5" install_onclick="5" />
+	
+		<hotspot name="hsp_1_7" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/6_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.700" enabled="false" ath="-11.7246" atv="-15.8198" distorted="true" rx="-13.50" ry="21.00" install_onclick="6" phot_h="80" info_ah="6_2.jpg" />
+	
+		<hotspot name="hsp_1_8" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/6_4.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.705" enabled="false" ath="-10.5798" atv="10.7921" distorted="true" rx="4.5" ry="15" install_onclick="6" phot_h="80" info_ah="6_4.jpg" />
+	
+		<hotspot name="hsp_1_9" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/6_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.405" enabled="false" ath="-25.4469" atv="-24.5336" distorted="true" rx="-24.00" ry="24.00" install_onclick="3" info_ah="add_hotspot/doc/6_1.html" />
+	
+		<hotspot name="hsp_1_10" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/6_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.405" enabled="false" ath="-24.5290" atv="9.9859" distorted="true" rx="24.00" ry="9.00" install_onclick="3" info_ah="add_hotspot/doc/6_3.pdf" />
+	
+		<hotspot name="hsp_1_11" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/7_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.685" enabled="false" ath="1.0251" atv="-27.2947" distorted="true" rx="-22.50" ry="4.50" install_onclick="6" phot_h="80" info_ah="7_1.jpg" />
+	
+		<hotspot name="hsp_1_12" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/7_3.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.685" enabled="false" ath="1.9108" atv="-12.2254" distorted="true" rx="6.00" ry="-7.50" install_onclick="6" phot_h="80" info_ah="7_3.jpg" />
+	
+		<hotspot name="hsp_1_13" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/7_2.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.420" enabled="false" ath="12.4444" atv="-27.1637" distorted="true" rx="-19.50" ry="-16.50" install_onclick="3" info_ah="add_hotspot/doc/7_2.html" />
+	
+		<hotspot name="hsp_1_14" style="link_hs_sm" onclick="YoutubOpenSM(Tk-orf5m_og,80);" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" visible="false" scale="0.605" enabled="false" ath="29.2608" atv="-19.6044" distorted="true" rx="-22.500" ry="-24.000" />
+	
+		<hotspot name="hsp_1_15" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_2.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.350" enabled="false" ath="51.9493" atv="-13.8401" distorted="true" rx="-12.00" ry="-54.00" install_onclick="3" info_ah="add_hotspot/doc/8_2.html" />
+	
+		<hotspot name="hsp_1_16" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.420" enabled="false" ath="29.3547" atv="-14.0567" distorted="true" rx="-15.00" ry="-28.50" install_onclick="3" info_ah="add_hotspot/doc/8_3.pdf" />
+	
+		<hotspot name="hsp_1_18" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/8_4.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" visible="false" scale="0.385" enabled="false" ath="29.5275" atv="-0.3253" distorted="true" ry="-42" install_onclick="3" info_ah="add_hotspot/doc/8_4.html" />
+	
+		<hotspot name="hsp_1_17" style="link_hs_sm" onclick="looktohotspot(get(name),90); videoplayer_open(8_5.mp4,get(poster_Ah));" url="%FIRSTXML%/add_hotspot/picture/media_playback_start.png" visible="false" scale="0.37" enabled="false" ath="39.6920" atv="-0.2147" distorted="true" rx="6" ry="-37.5" install_onclick="7" video_h="80" volume_adhs="0.5" info_ah="8_5.mp4" />
+	
+		<hotspot name="hsp_1_19" style="link_hs_sm" onclick="YoutubOpenSM(QZtKJlr9wII,80);" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" scale="0.545" ath="-152.4179" atv="-14.6912" distorted="true" rx="-16.5" ry="60" />
+		<hotspot name="hsp_1_20" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.55" ath="-135.6169" atv="-21.4707" distorted="true" rx="-24" ry="45" install_onclick="3" info_ah="add_hotspot/doc/13_1.html" />
+	</scene>
+
+	<scene name="scene_hallway_3" title="hallway_3" onstart="" thumburl="panos/hallway_3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-3.522" vlookat="3.108" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-70.000" vlookatmax="73.641" />
+
+		<preview url="panos/hallway_3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/hallway_3.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1280,2624,5184,10368" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" width="128" height="112" ath="-93.7790" atv="18.3000" linkedscene="scene_hallway_4" drag_hs="false" />
+		<hotspot name="spot2" style="skin_hotspotstyle" width="128" height="112" ath="85.7680" atv="20.5900" linkedscene="scene_hallway_2" drag_hs="false" />
+
+	
+		<hotspot name="hsp_2_1" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/wall_2.jpg" visible="false" scale="4.550" enabled="false" ath="124.3779" atv="-1.4606" distorted="true" rx="-1.5" ry="9.00" install_onclick="5" />
+	
+		<hotspot name="hsp_2_2" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/3_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.575" enabled="false" ath="-30.6323" atv="-25.0117" distorted="true" rx="-25.50" ry="25.50" install_onclick="6" phot_h="80" info_ah="3_1.jpg" />
+	
+		<hotspot name="hsp_2_3" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/3_2.jpg);" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.445" enabled="false" ath="-31.9262" atv="-8.5499" distorted="true" rx="-16.50" ry="21.00" install_onclick="6" phot_h="80" info_ah="3_2.jpg" />
+	
+		<hotspot name="hsp_2_4" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/3_3.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.455" enabled="false" ath="-31.3513" atv="9.6407" distorted="true" rx="12.000" ry="19.500" install_onclick="3" info_ah="add_hotspot/doc/3_3.html" />
+	
+		<hotspot name="hsp_2_5" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/3_4.jpg);" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.490" enabled="false" ath="5.4994" atv="7.4200" distorted="true" ry="-19.50" install_onclick="6" phot_h="80" info_ah="3_4.jpg" />
+	
+		<hotspot name="hsp_2_6" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/4_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.575" enabled="false" ath="23.5817" atv="-25.2259" distorted="true" rx="-22.50" ry="-28.50" install_onclick="6" phot_h="80" info_ah="4_1.jpg" />
+	
+		<hotspot name="hsp_2_7" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/4_2.jpg);" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.435" enabled="false" ath="8.9893" atv="-21.8806" distorted="true" rx="-15" ry="-22.5" install_onclick="6" phot_h="80" info_ah="4_2.jpg" />
+	
+		<hotspot name="hsp_2_8" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/4_3.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.415" enabled="false" ath="20.3404" atv="-15.2495" distorted="true" rx="-12" ry="-33" install_onclick="3" info_ah="add_hotspot/doc/4_3.html" />
+	
+		<hotspot name="hsp_2_9" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/4_4.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.720" enabled="false" ath="9.1074" atv="-13.2701" distorted="true" rx="-12.000" ry="-15.000" install_onclick="6" phot_h="80" info_ah="4_4.jpg" />
+	
+		<hotspot name="hsp_2_10" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/4_5.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.750" enabled="false" ath="11.5484" atv="1.3430" distorted="true" ry="-25.50" install_onclick="6" phot_h="80" info_ah="4_5.jpg" />
+	
+		<hotspot name="hsp_2_11" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/4_6.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.45" enabled="false" ath="23.1090" atv="0.6998" distorted="true" rx="6" ry="-21" install_onclick="3" info_ah="add_hotspot/doc/4_6.pdf" />
+	
+		<hotspot name="hsp_2_12" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/5_1.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.560" enabled="false" ath="34.0401" atv="-22.6431" distorted="true" rx="-24.00" ry="-37.50" install_onclick="6" phot_h="80" info_ah="5_1.jpg" />
+	
+		<hotspot name="hsp_2_13" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/5_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.510" enabled="false" ath="43.0607" atv="-20.0469" distorted="true" rx="-27.00" ry="-39.00" install_onclick="6" phot_h="80" info_ah="5_2.jpg" />
+	
+		<hotspot name="hsp_2_14" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/5_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.37" enabled="false" ath="40.1887" atv="-4.9658" distorted="true" rx="-1.5" ry="-52.5" install_onclick="3" info_ah="add_hotspot/doc/5_3.pdf" />
+	
+		<hotspot name="hsp_2_15" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/5_4.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.55" enabled="false" ath="34.7778" atv="3.4770" distorted="true" rx="4.5" ry="-45" install_onclick="6" phot_h="80" info_ah="5_4.jpg" />
+	
+		<hotspot name="hsp_2_16" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/5_5.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.310" enabled="false" ath="33.5821" atv="10.6397" distorted="true" rx="9.00" ry="-43.50" install_onclick="3" info_ah="add_hotspot/doc/5_5.html" />
+	
+		<hotspot name="hsp_2_17" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_1.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.38" ath="154.3495" atv="-13.2713" distorted="true" rx="7.5" ry="-19.5" install_onclick="3" info_ah="add_hotspot/doc/13_1.pdf" />
+		<hotspot name="hsp_2_18" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_4.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.38" ath="-174.2226" atv="-14.0250" distorted="true" rx="-7.5" ry="-9" install_onclick="3" info_ah="add_hotspot/doc/13_4.pdf" />
+		<hotspot name="hsp_2_19" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.38" ath="174.7540" atv="-14.1292" distorted="true" rx="-4.5" ry="13.5" install_onclick="3" info_ah="add_hotspot/doc/13_3.pdf" />
+		<hotspot name="hsp_2_20" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_2.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.38" ath="164.2518" atv="-13.7620" distorted="true" rx="9" ry="-12" install_onclick="3" info_ah="add_hotspot/doc/13_2.pdf" />
+	</scene>
+
+	<scene name="scene_hallway_4" title="hallway_4" onstart="" thumburl="panos/hallway_4.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="5.179" vlookat="2.693" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-71.819" vlookatmax="75.455" />
+
+		<preview url="panos/hallway_4.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/hallway_4.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,640,1152,2304,4736,9472" />
+		</image>
+		<hotspot name="spot1" style="skin_hotspotstyle" width="128" height="112" ath="94.9550" atv="17.9810" linkedscene="scene_hallway_3" drag_hs="false" />
+
+	
+		<hotspot name="hsp_3_1" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/1_1.jpg);" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.47" enabled="false" ath="2.0019" atv="-25.6978" distorted="true" rx="-12" ry="13.5" install_onclick="6" phot_h="80" info_ah="1_1.jpg" />
+	
+		<hotspot name="hsp_3_2" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/1_2.jpg);" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.455" enabled="false" ath="-18.9833" atv="-17.7018" distorted="true" rx="-16.5" ry="31.5" install_onclick="6" phot_h="80" info_ah="1_2.jpg" />
+	
+		<hotspot name="hsp_3_3" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/1_3.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.525" enabled="false" ath="-1.5216" atv="-14.7798" distorted="true" rx="-16.50" ry="9.00" install_onclick="3" info_ah="add_hotspot/doc/1_3.html" />
+	
+		<hotspot name="hsp_3_4" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/1_4.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.51" enabled="false" ath="-12.9515" atv="-8.3512" distorted="true" rx="-15" ry="15" install_onclick="3" info_ah="add_hotspot/doc/1_4.pdf" />
+	
+		<hotspot name="hsp_3_5" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/1_5.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.62" enabled="false" ath="3.6354" atv="-4.8592" distorted="true" install_onclick="6" phot_h="80" info_ah="1_5.jpg" />
+		<hotspot name="hsp_3_6" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/1_6.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.62" enabled="false" ath="-19.1190" atv="6.6912" distorted="true" rx="6" ry="19.5" install_onclick="6" phot_h="80" info_ah="1_6.jpg" />
+	
+		<hotspot name="hsp_3_7" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/2_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" visible="false" scale="0.45" enabled="false" ath="31.1102" atv="-23.3318" distorted="true" rx="16.5" ry="25.5" rz="1" install_onclick="3" info_ah="add_hotspot/doc/2_1.html" />
+	
+		<hotspot name="hsp_3_8" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/2_2.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.645" enabled="false" ath="16.8105" atv="-12.9090" distorted="true" rx="-12" ry="-9" install_onclick="6" phot_h="80" info_ah="2_2.jpg" />
+	
+		<hotspot name="hsp_3_9" style="link_hs_sm" onclick=" open_photo_add_hs(%FIRSTXML%/add_hotspot/photo/2_3.jpg);" url="%FIRSTXML%/add_hotspot/picture/icon_L_9.png" visible="false" scale="0.665" enabled="false" ath="31.4742" atv="4.6397" distorted="true" rx="7.5" ry="-21" install_onclick="6" phot_h="80" info_ah="2_3.jpg" />
+	
+		<hotspot name="hsp_3_10" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/wall_1.jpg" visible="false" scale="1.455" enabled="false" ath="110.0001" atv="-0.0817" distorted="true" rx="3.00" ry="51.00" install_onclick="5" />
+	
+		<hotspot name="hsp_3_11" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.51" ath="168.7385" atv="-23.1248" distorted="true" rx="-30" ry="13.5" install_onclick="3" info_ah="add_hotspot/doc/12_1.html" />
+		<hotspot name="hsp_3_12" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_2.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.415" ath="-152.1726" atv="-20.1148" distorted="true" rx="-19.5" ry="-24" install_onclick="3" info_ah="add_hotspot/doc/12_2.pdf" />
+		<hotspot name="hsp_3_13" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_3.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.415" ath="-179.2775" atv="-13.9301" distorted="true" rx="1.5" install_onclick="3" info_ah="add_hotspot/doc/12_3.pdf" />
+		<hotspot name="hsp_3_14" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_4.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.415" ath="-160.6744" atv="-12.9541" distorted="true" rx="-9" ry="-19.5" install_onclick="3" info_ah="add_hotspot/doc/12_4.pdf" />
+		<hotspot name="hsp_3_15" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_5.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.415" ath="-179.0414" atv="1.6450" distorted="true" rx="-9" ry="1.5" install_onclick="3" info_ah="add_hotspot/doc/12_5.pdf" />
+		<hotspot name="hsp_3_16" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_6.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.415" ath="-161.4208" atv="0.4035" distorted="true" ry="-21" install_onclick="3" info_ah="add_hotspot/doc/12_6.pdf" />
+		<hotspot name="hsp_3_17" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/12_7.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.415" ath="-144.3207" atv="2.2001" distorted="true" rx="1.5" ry="-36" install_onclick="3" info_ah="add_hotspot/doc/12_7.pdf" />
+	</scene>
+
+
+</krpano>

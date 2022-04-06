@@ -1,4 +1,4 @@
-<krpano version="1.20.11" title="Virtual Tour">
+<krpano version="1.20.11" title="Музей школы №201">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -81,7 +81,7 @@
 	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/youtube.xml"/>
 	<include url="%FIRSTXML%/add_hotspot/plugins_l/plugin_a/photo.xml"/>
 
-<scene name="scene_hallway_1" title="hallway_1" onstart="" thumburl="panos/hallway_1.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_hallway_1" title="Коридор" onstart="" thumburl="panos/hallway_1.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -144,7 +144,7 @@
 		<hotspot name="hsp_0_25" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.355" ath="158.2789" atv="-13.0776" distorted="true" rx="-7.5" ry="22.5" install_onclick="3" info_ah="add_hotspot/doc/13_1.html" />
 	</scene>
 
-	<scene name="scene_hallway_2" title="hallway_2" onstart="" thumburl="panos/hallway_2.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_hallway_2" title="Коридор" onstart="" thumburl="panos/hallway_2.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -197,7 +197,7 @@
 		<hotspot name="hsp_1_20" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_1.html, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/icon_L_1.png" scale="0.55" ath="-135.6169" atv="-21.4707" distorted="true" rx="-24" ry="45" install_onclick="3" info_ah="add_hotspot/doc/13_1.html" />
 	</scene>
 
-	<scene name="scene_hallway_3" title="hallway_3" onstart="" thumburl="panos/hallway_3.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_hallway_3" title="Коридор" onstart="" thumburl="panos/hallway_3.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
@@ -250,7 +250,7 @@
 		<hotspot name="hsp_2_20" style="link_hs_sm" onclick="openFrame(iframe,add_hotspot/doc/13_2.pdf, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/plugins_l/picture/icon_L_1.png" scale="0.38" ath="164.2518" atv="-13.7620" distorted="true" rx="9" ry="-12" install_onclick="3" info_ah="add_hotspot/doc/13_2.pdf" />
 	</scene>
 
-	<scene name="scene_hallway_4" title="hallway_4" onstart="" thumburl="panos/hallway_4.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_hallway_4" title="Коридор" onstart="" thumburl="panos/hallway_4.tiles/thumb.jpg" lat="" lng="" heading="">
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 

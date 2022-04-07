@@ -104,7 +104,7 @@
 	
 		<hotspot name="hsp_0_5" style="link_hs_sm" onclick="YoutubOpenSM(Tk-orf5m_og,80);" url="%FIRSTXML%/add_hotspot/picture/youtube_icon.png" scale="0.405" ath="-134.9220" atv="-14.7227" distorted="true" rx="-22.5" ry="37.5" />
 	
-		<hotspot name="hsp_0_6" style="link_hs_sm" onhover="showtit();" onclick="openurl(../museum/, _parent);" url="%FIRSTXML%/add_hotspot/picture/door_in.png" scale="1.555" ath="-89.3650" atv="10.4227" distorted="true" title="Зайти в музей" install_onclick="2" info_ah="../museum/" />
+		<hotspot name="hsp_0_6" style="link_hs_sm" onhover="showtit();" onclick="openurl(museum/, _parent);" url="%FIRSTXML%/add_hotspot/picture/door_in.png" scale="1.555" ath="-89.3650" atv="10.4227" distorted="true" title="Зайти в музей" install_onclick="2" info_ah="../museum/" />
 	
 		<hotspot name="hsp_0_7" style="link_hs_sm" url="%FIRSTXML%/add_hotspot/picture/wall.jpg" scale="8.78" ath="112.9919" atv="-1.7575" distorted="true" rx="-1.5" ry="-52.5" install_onclick="5" />
 	

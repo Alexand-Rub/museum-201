@@ -1,4 +1,4 @@
-<krpano version="1.20.9" title="Virtual Tour">
+<krpano version="1.20.9" title="Музей школы №201">
 
 	<include url="skin/vtourskin.xml" />
 
@@ -83,7 +83,7 @@
 
 
 
-<scene name="scene_pano_m_1" title="pano_m_1" onstart="" thumburl="panos/pano_m_1.tiles/thumb.jpg" lat="" lng="" heading="">
+<scene name="scene_pano_m_1" title="Зал" onstart="" thumburl="panos/pano_m_1.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />
 		<view hlookat="3.491" vlookat="8.702" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 		<preview url="panos/pano_m_1.tiles/preview.jpg" />
@@ -100,7 +100,7 @@
 		<hotspot name="hsp_0_2" style="link_hs_sm" onhover="showtit();" onclick="openurl(../, _parent);" url="%FIRSTXML%/add_hotspot/picture/door_out.png" scale="1.315" ath="179.1481" atv="5.8950" distorted="true" title="Выйти из музея" install_onclick="2" info_ah="../" />
 	</scene>
 
-	<scene name="scene_pano_m_2" title="pano_m_2" onstart="" thumburl="panos/pano_m_2.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_pano_m_2" title="Зал" onstart="" thumburl="panos/pano_m_2.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />
 		<view hlookat="-6.653" vlookat="5.583" fovtype="MFOV" fov="120.080" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 		<preview url="panos/pano_m_2.tiles/preview.jpg" />
@@ -112,7 +112,7 @@
 		<hotspot name="spot3" style="skin_hotspotstyle" ath="89.029" atv="12.279" linkedscene="scene_pano_m_3" />
 	</scene>
 
-	<scene name="scene_pano_m_3" title="pano_m_3" onstart="" thumburl="panos/pano_m_3.tiles/thumb.jpg" lat="" lng="" heading="">	
+	<scene name="scene_pano_m_3" title="Зал" onstart="" thumburl="panos/pano_m_3.tiles/thumb.jpg" lat="" lng="" heading="">	
 		<control bouncinglimits="calc:image.cube ? true : false" />
 		<view hlookat="9.830" vlookat="11.509" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 		<preview url="panos/pano_m_3.tiles/preview.jpg" />
@@ -124,7 +124,7 @@
 		<hotspot name="spot3" style="skin_hotspotstyle" ath="38.416" atv="15.676" linkedscene="scene_pano_m_1" />
 	</scene>
 
-	<scene name="scene_pano_m_4" title="pano_m_4" onstart="" thumburl="panos/pano_m_4.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_pano_m_4" title="Зал" onstart="" thumburl="panos/pano_m_4.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />
 		<view hlookat="-354.032" vlookat="3.340" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 		<preview url="panos/pano_m_4.tiles/preview.jpg" />
@@ -137,7 +137,7 @@
 		<hotspot name="spot4" style="skin_hotspotstyle" ath="146.188" atv="15.506" linkedscene="scene_pano_m_5" />
 	</scene>
 
-	<scene name="scene_pano_m_5" title="pano_m_5" onstart="" thumburl="panos/pano_m_5.tiles/thumb.jpg" lat="" lng="" heading="">
+	<scene name="scene_pano_m_5" title="Зал" onstart="" thumburl="panos/pano_m_5.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />
 		<view hlookat="-49.658" vlookat="7.100" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 		<preview url="panos/pano_m_5.tiles/preview.jpg" />

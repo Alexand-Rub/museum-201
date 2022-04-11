@@ -85,7 +85,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="-89.050" vlookat="7.634" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-64.555" vlookatmax="71.809" />
+		<view hlookat="-89.050" vlookat="7.634" fovtype="MFOV" fov="120.000" maxpixelzoom="0.5" fovmin="70" fovmax="120" limitview="range" vlookatmin="-59.9" vlookatmax="66"/>
 
 		<preview url="panos/hallway_1.tiles/preview.jpg" />
 
@@ -148,7 +148,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="1.450" vlookat="3.108" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-62.737" vlookatmax="73.635" />
+		<view hlookat="1.450" vlookat="3.108" fovtype="MFOV" fov="120.000" maxpixelzoom="0.5" fovmin="70" fovmax="120" limitview="range" vlookatmin="-59" vlookatmax="68" />
 
 		<preview url="panos/hallway_2.tiles/preview.jpg" />
 
@@ -201,7 +201,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="-3.522" vlookat="3.108" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-70.000" vlookatmax="73.641" />
+		<view hlookat="-3.522" vlookat="3.108" fovtype="MFOV" fov="120.000" maxpixelzoom="0.5" fovmin="70" fovmax="120" limitview="range" vlookatmin="-65" vlookatmax="67.5" />
 
 		<preview url="panos/hallway_3.tiles/preview.jpg" />
 
@@ -254,7 +254,7 @@
 		
 		<control bouncinglimits="calc:image.cube ? true : false" />
 
-		<view hlookat="5.179" vlookat="2.693" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="range" vlookatmin="-71.819" vlookatmax="75.455" />
+		<view hlookat="5.179" vlookat="2.693" fovtype="MFOV" fov="120.000" maxpixelzoom="0.5" fovmin="70" fovmax="120" limitview="range" vlookatmin="-65" vlookatmax="68.5" />
 
 		<preview url="panos/hallway_4.tiles/preview.jpg" />
 

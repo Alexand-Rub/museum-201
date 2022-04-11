@@ -2,7 +2,7 @@
 
 	<include url="skin/vtourskin.xml" />
 
-	<include url="add_hotspot/plugins_l/add_hotspot.xml"/>
+	<!-- <include url="add_hotspot/plugins_l/add_hotspot.xml"/> -->
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
@@ -79,90 +79,48 @@
 		if(startactions !== null, startactions() );
 	</action>
 
-
-
 	<scene name="scene_pano_m_1" title="pano_m_1" onstart="" thumburl="panos/pano_m_1.tiles/thumb.jpg" lat="" lng="" heading="">
-		
 		<control bouncinglimits="calc:image.cube ? true : false" />
-
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
 		<preview url="panos/pano_m_1.tiles/preview.jpg" />
-
 		<image>
 			<cube url="panos/pano_m_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,2048,4160,8256" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-83.089" atv="25.679" linkedscene="scene_pano_m_2" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="1.314" atv="25.996" linkedscene="scene_pano_m_4" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="79.536" atv="26.464" linkedscene="scene_pano_m_5" />
-		<hotspot name="spot4" style="skin_hotspotstyle" ath="-46.512" atv="20.764" linkedscene="scene_pano_m_3" />
-
 	</scene>
 
 	<scene name="scene_pano_m_2" title="pano_m_2" onstart="" thumburl="panos/pano_m_2.tiles/thumb.jpg" lat="" lng="" heading="">
-		
 		<control bouncinglimits="calc:image.cube ? true : false" />
-
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
 		<preview url="panos/pano_m_2.tiles/preview.jpg" />
-
 		<image>
 			<cube url="panos/pano_m_2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,2048,4160,8256" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="87.872" atv="17.165" linkedscene="scene_pano_m_3" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="131.918" atv="19.374" linkedscene="scene_pano_m_4" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="179.957" atv="23.489" linkedscene="scene_pano_m_1" />
-
 	</scene>
 
-	<scene name="scene_pano_m_3" title="pano_m_3" onstart="" thumburl="panos/pano_m_3.tiles/thumb.jpg" lat="" lng="" heading="">
-		
+	<scene name="scene_pano_m_3" title="pano_m_3" onstart="" thumburl="panos/pano_m_3.tiles/thumb.jpg" lat="" lng="" heading="">	
 		<control bouncinglimits="calc:image.cube ? true : false" />
-
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
 		<preview url="panos/pano_m_3.tiles/preview.jpg" />
-
 		<image>
 			<cube url="panos/pano_m_3.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,2048,4160,8256" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="39.335" atv="18.936" linkedscene="scene_pano_m_1" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="80.394" atv="23.700" linkedscene="scene_pano_m_2" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-22.800" atv="18.856" linkedscene="scene_pano_m_4" />
-
 	</scene>
 
 	<scene name="scene_pano_m_4" title="pano_m_4" onstart="" thumburl="panos/pano_m_4.tiles/thumb.jpg" lat="" lng="" heading="">
-		
 		<control bouncinglimits="calc:image.cube ? true : false" />
-
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
 		<preview url="panos/pano_m_4.tiles/preview.jpg" />
-
 		<image>
 			<cube url="panos/pano_m_4.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,2048,4160,8256" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="-86.716" atv="18.873" linkedscene="scene_pano_m_3" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-137.306" atv="17.742" linkedscene="scene_pano_m_2" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="179.769" atv="19.582" linkedscene="scene_pano_m_1" />
-
 	</scene>
 
 	<scene name="scene_pano_m_5" title="pano_m_5" onstart="" thumburl="panos/pano_m_5.tiles/thumb.jpg" lat="" lng="" heading="">
-		
 		<control bouncinglimits="calc:image.cube ? true : false" />
-
 		<view hlookat="0.0" vlookat="0.0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
-
 		<preview url="panos/pano_m_5.tiles/preview.jpg" />
-
 		<image>
 			<cube url="panos/pano_m_5.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,2048,4160,8256" />
 		</image>
-		
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="84.757" atv="23.114" linkedscene="scene_pano_m_1" />
-
 	</scene>
 </krpano>

@@ -81,7 +81,7 @@
 
 		<!-- *** add hotspt *** -->
 
-
+	<editor_hs pin="alexandrublev@icloud.com" />
 
 <scene name="scene_pano_m_1" title="pano_m_1" onstart="" thumburl="panos/pano_m_1.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />

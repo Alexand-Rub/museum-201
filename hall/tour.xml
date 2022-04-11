@@ -1,8 +1,8 @@
-﻿<krpano version="1.20.9" title="Virtual Tour">
+<krpano version="1.20.9" title="Virtual Tour">
 
 	<include url="skin/vtourskin.xml" />
 
-	<!-- <include url="add_hotspot/plugins_l/add_hotspot.xml"/> -->
+	<include url="add_hotspot/plugins_l/add_hotspot.xml"/>
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
@@ -79,17 +79,21 @@
 		if(startactions !== null, startactions() );
 	</action>
 
-	<scene name="scene_pano_m_1" title="pano_m_1" onstart="" thumburl="panos/pano_m_1.tiles/thumb.jpg" lat="" lng="" heading="">
+		<!-- *** add hotspt *** -->
+
+	<editor_hs pin="alexandrublev@icloud.com" />
+
+<scene name="scene_pano_m_1" title="pano_m_1" onstart="" thumburl="panos/pano_m_1.tiles/thumb.jpg" lat="" lng="" heading="">
 		<control bouncinglimits="calc:image.cube ? true : false" />
 		<view hlookat="3.491" vlookat="8.702" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
 		<preview url="panos/pano_m_1.tiles/preview.jpg" />
 		<image>
 			<cube url="panos/pano_m_1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,1024,2048,4160,8256" />
 		</image>
-		<hotspot name="spot1" style="skin_hotspotstyle" ath="1.353" atv="19.751" linkedscene="scene_pano_m_4" />
-		<hotspot name="spot2" style="skin_hotspotstyle" ath="-90.268" atv="19.750" linkedscene="scene_pano_m_2" />
-		<hotspot name="spot3" style="skin_hotspotstyle" ath="-47.003" atv="19.050" linkedscene="scene_pano_m_3" />
-		<hotspot name="spot4" style="skin_hotspotstyle" ath="93.075" atv="20.998" linkedscene="scene_pano_m_5" />
+		<hotspot name="spot1" style="skin_hotspotstyle" width="128" height="112" ath="1.3530" atv="19.7510" linkedscene="scene_pano_m_4" drag_hs="false" />
+		<hotspot name="spot2" style="skin_hotspotstyle" width="128" height="112" ath="-90.2680" atv="19.7500" linkedscene="scene_pano_m_2" drag_hs="false" />
+		<hotspot name="spot3" style="skin_hotspotstyle" width="128" height="112" ath="-47.0030" atv="19.0500" linkedscene="scene_pano_m_3" drag_hs="false" />
+		<hotspot name="spot4" style="skin_hotspotstyle" width="128" height="112" ath="93.0750" atv="20.9980" linkedscene="scene_pano_m_5" drag_hs="false" />
 	</scene>
 
 	<scene name="scene_pano_m_2" title="pano_m_2" onstart="" thumburl="panos/pano_m_2.tiles/thumb.jpg" lat="" lng="" heading="">

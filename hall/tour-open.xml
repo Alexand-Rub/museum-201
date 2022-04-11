@@ -95,7 +95,9 @@
 		<hotspot name="spot3" style="skin_hotspotstyle" width="128" height="112" ath="-47.0030" atv="19.0500" linkedscene="scene_pano_m_3" drag_hs="false" />
 		<hotspot name="spot4" style="skin_hotspotstyle" width="128" height="112" ath="93.0750" atv="20.9980" linkedscene="scene_pano_m_5" drag_hs="false" />
 	
-		<hotspot name="hsp_0_1" style="link_hs_sm" onclick="openFrame(iframe,null, 1200, 900, true );" url="%FIRSTXML%/add_hotspot/picture/door_out.png" scale="1.145" ath="179.6119" atv="6.8025" distorted="true" ry="9" install_onclick="3" info_ah="null" />
+		
+	
+		<hotspot name="hsp_0_2" style="link_hs_sm" onhover="showtit();" onclick="openurl(../, _parent);" url="%FIRSTXML%/add_hotspot/picture/door_out.png" scale="1.315" ath="179.1481" atv="5.8950" distorted="true" title="Выйти из музея" install_onclick="2" info_ah="../" />
 	</scene>
 
 	<scene name="scene_pano_m_2" title="pano_m_2" onstart="" thumburl="panos/pano_m_2.tiles/thumb.jpg" lat="" lng="" heading="">
